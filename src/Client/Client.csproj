@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Companies.Client</AssemblyName>
+    <Authors>Vlad Pozhydaev</Authors>
+    <Company>Vlad Pozhydaev</Company>
+    <Product>Companies</Product>
+    <Description>Companies microservice client</Description>
+    <PackageReleaseNotes>Companies microservice</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PipServices3.Rpc" Version="3.3.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\Interface.csproj" />
+  </ItemGroup>
+
+</Project>
