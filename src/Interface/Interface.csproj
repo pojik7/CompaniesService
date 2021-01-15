@@ -10,6 +10,7 @@
     <Product>Companies</Product>
     <Description>Companies microservice client</Description>
     <PackageTags>Companies microservice</PackageTags>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -8,7 +8,7 @@ using PipServices3.Commons.Refer;
 
 namespace Companies.Logic
 {
-    public class CompaniesController: ICompaniesController, IConfigurable, ICommandable
+    public class CompaniesController: ICompaniesController, IConfigurable, ICommandable, IReferenceable
     {
         private ICompaniesPersistence _persistence;
         private CompaniesCommandSet _commandSet;
